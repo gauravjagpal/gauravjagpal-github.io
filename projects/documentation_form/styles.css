@@ -1,0 +1,59 @@
+html, body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      min-width: 290px;
+      width: 90%;
+}
+
+#nav-header {
+  text-align: center;
+  margin: 2%;
+}
+
+#navbar a {
+  color: #4d4e53;
+}
+
+header {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+nav {
+  height: 100%;
+  margin-right: 1px grey solid;
+  background: #eee;
+}
+
+#navbar {
+  text-align: left;
+  position: fixed;
+  width: 300px;
+  height: 100%;
+}
+
+@media (max-width: 700px) {
+  section {
+    width: 900px;
+  }
+}
+
+#main-doc {
+ position: absolute;
+ margin: 40px 50px 0 370px;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+.navigation {
+  border-top: 1px grey solid;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 0;
+  border-right: 1px grey solid;
+}

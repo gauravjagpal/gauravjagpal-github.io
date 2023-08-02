@@ -1,0 +1,148 @@
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+    --form-width: 40vw;
+    --form-padding: 10px;
+    --form-margin: 5vw;
+    --input-height: 1.5rem;
+}
+	
+.container {
+  padding: 0 20%;
+  margin: 0 0vw;
+  text-align: center;
+}
+
+header{
+  display: block;
+  position: relative;
+  width: 50vw;
+  padding: var(--form-padding);
+  margin: 0 20%;
+}
+
+h1, p {
+  font-family: aileron;
+  display: block;
+  text-align: center;
+  }
+
+p {
+  font-style: italic;
+}
+
+.comments{
+  font-style: normal;
+  text-align: left;
+  font-size: 1rem;
+}
+
+#survey-form {
+    background: rgba(27, 27, 50, 0.8);
+    z-index: 1;
+    position: absolute;
+    margin: 0 20%;
+  }
+
+#email-label {
+  margin: 20px black solid;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  z-index: -1;
+  margin: 0 auto;
+}
+
+.header {
+  display: block;
+  border: none;
+  border-radius: 10px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 0;
+  position: absolut;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.personal-details, #dropdown {
+  display: block;
+  border: none;
+}
+
+#dropdown, #name, #email, #number {
+  width: 100%;
+  height: var(--input-height);
+  border-radius: 5px;
+}
+
+input {
+   height: var(--input-height);
+}
+
+.survey-details {
+  border: none;
+}
+
+#suggestions {
+  width: var(--form-width);
+  height: 10vh;
+
+}
+
+div {
+  padding: 10px;
+  margin: 1vh 5vw;
+}
+
+#submit {
+  color: white;
+  background: var(--color-green);
+  border-radius: 5px;
+  width: var(--form-width);
+  padding: var(--form-padding);
+  margin-top: 10px;
+  height: 2.5rem;
+}
+
+.inline {
+  display: inline;
+}
+
+label, input, textarea {
+  display: block;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.final-comments {
+	margin-bottom: 20px;
+}
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+** end of undefined **
+

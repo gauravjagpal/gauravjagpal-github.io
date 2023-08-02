@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <div class="col-xs-2"></div>
+  <div class="col-xs-8">
+	<header>
+	<div class="header">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </div>
+    </header>
+    <form id="survey-form">
+      <div class="personal-details">
+        <label id="name-label">
+          Name
+        </label>
+        <input id="name" type="text" placeholder="Enter your name" required name="name"/>
+      </div>
+      <div class="personal-details">
+        <label id="email-label">
+          Email
+        </label>
+        <input id="email" type="email" placeholder="Enter your email" required/>
+      </div>
+      <div class="personal-details">
+        <label id="number-label">
+          Age
+        </label>
+        <input id="number" type="number" min="13" max="99" placeholder="Age" required/>
+      </div>
+      <div class="survey-details">
+        <label for="select your current job">Which option best describes your current role
+          <select id="dropdown" type="select" placeholder="Select One"required>
+            <option disabled selected value>(Select One)</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+          </select>
+        </label>
+        </div>
+        <div class="survey-details">
+          <label for="recommend">Would you recommend freeCodeCamp to a friend?</label>
+          <label for="definetely"><input value="0" type="radio" name="recommendation" class="inline" required/>Definitely</label>
+          <label for="maybe"><input value="1"type="radio" name="recommendation" class="inline" required/>Maybe</label>
+          <label for="not-sure"><input value="2" type="radio" name="recommendation" class="inline" required/>Not Sure</label>
+        </div>
+        <div class="survey-details">
+          <label for="improvements">What would you like to see improved? (Check all that apply)</label>
+          <label><input for="front-end" type="checkbox" class="inline" value="Front-End Projects"/>Front-End Projects</label>
+          <label><input for="back-end" type="checkbox" class="inline" value="Back-End Projects"/>Back-End Projects</label>
+          <label><input for="Data Visualization" type="checkbox" class="inline" value="Data Visualization"/>Data Visualization</label>
+          <label><input for="challenges" type="checkbox" class="inline" value="Challenges"/>Challenges</label>
+          <label><input for="Open Source Community" type="checkbox" class="inline" value="Open Source Community"/>Open Source Community</label>
+          <label><input for="Gitter help rooms" type="checkbox" class="inline" value="Gitter help rooms"/>Gitter help rooms</label>
+          <label><input for="Videos" type="checkbox" class="inline" value="Videos"/>Videos</label>
+          <label><input for="City Meetups" type="checkbox" class="inline" value="City Meetups"/>City Meetups</label>
+          <label><input for="Wiki" type="checkbox" class="inline" value="Wiki"/>Wiki</label>
+          <label><input for="Forum" type="checkbox" class="inline" value="Forum"/>Forum</label>
+          <label><input for="Additional Courses" type="checkbox" class="inline" value="Additional Courses"/>Additional Courses</label>
+        </div>
+        <div class="final-comments">
+          <p class="comments">Any comments or suggestions?</p>
+          <textarea id="suggestions" placeholder="Enter your comments here..."></textarea>
+          <input id="submit" type="submit"/>
+        </div>
+    </form>
+	</div>
+	<div class="col-xs-2"></div>
+  </body>
+</html>
