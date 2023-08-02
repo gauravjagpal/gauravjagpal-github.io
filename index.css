@@ -172,12 +172,17 @@ h1, p {
   }
 
   .contact {
-    padding: 0;
+    display: block;
+    margin-top: 2rem;
   }
 
   .contact-links {
     margin-top: 0;
-}
+  }
+
+  .contact li {
+    padding: 1rem;
+  }
 }
 
 
