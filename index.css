@@ -134,6 +134,10 @@ h1, p {
   p {
     font-size: 2rem;
   }
+
+  .contact-details {
+    font-size: 1.5rem;
+  }
 }
 
 
