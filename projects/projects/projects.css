@@ -38,6 +38,11 @@ img {
     background-size: cover;
 }
 
+#elevation {
+    background-image: url(elevation.jpeg);
+    background-size: cover;
+}
+
 
 
 @media screen and (max-width:649px){    
