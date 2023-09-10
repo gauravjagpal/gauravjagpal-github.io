@@ -44,6 +44,12 @@ img {
 }
 
 
+#microbiome {
+    background-image: url(microbiome.jpeg);
+    background-size: cover;
+}
+
+
 
 @media screen and (max-width:649px){    
     img {
