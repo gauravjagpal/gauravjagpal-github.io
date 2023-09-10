@@ -179,6 +179,7 @@ h1, p {
     font-size: 1.2rem;
     margin: 0;
     padding: 2rem;
+    list-style-type: none;  
   }
 
   .navbar li{
@@ -193,7 +194,7 @@ h1, p {
     padding: 0;
   }
 
-.contact-details {
+.profile-details {
     font-size: 1rem;
     text-shadow: 2px 2px 1px #1f1f1f;
     transition: transform 0.3s ease-out;
