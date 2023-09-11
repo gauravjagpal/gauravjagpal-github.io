@@ -49,8 +49,6 @@ img {
     background-size: cover;
 }
 
-
-
 @media screen and (max-width:649px){    
     img {
         width: 250px;
