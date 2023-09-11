@@ -1,6 +1,8 @@
 :root {
-  --background-color1: rgb(234, 179, 96);
-  --background-color2: rgb(202, 188, 168);
+  --background-color1: rgb(49, 49, 49);
+  --background-color2: rgb(234, 179, 96);
+  --background-color3: rgb(202, 188, 168);
+  --button-color1: rgb(218, 141, 0);
 }
 
 
@@ -14,8 +16,7 @@
   display: flex;
   top: 0;
   right: 0;
-  width: 100%;
-  background: rgb(49, 49, 49);
+  background: var(--background-color1);
   color:white;
   justify-content: right;
 }
@@ -53,15 +54,16 @@
 
 li {
   margin: 0;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .punchline {
-  background-color: var(--background-color1);
+  background-color: var(--background-color2);
   font-style: bold;
   transition-timing-function: ease-in;
   transition-duration: 700ms;
   text-align: center;
+  padding: 10px 0;
 }
 
 .intro {
@@ -80,7 +82,7 @@ li {
 }
 
 .threesteps {
-  background-color: var(--background-color2);
+  background-color: var(--background-color3);
   text-align: center;
   padding: 50px;
 }
@@ -95,4 +97,62 @@ li {
   position: relative;
   top: 30px;
   z-index: 1;
+}
+
+#steps {
+  padding: 10px 0;
+  margin: 0 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--button-color1);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0.75rem 5rem;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: rgb(136, 95, 202);
+}
+
+.testimonial {
+  color: white;
+  font-style: italic;
+  padding: 100px 0;
+}
+
+#fruit {
+  overflow: hidden;
+  padding: 0;
+}
+
+.footer {
+  background-color: var(--background-color1);
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.email, .mailing {
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
+  margin: 0 0;
+}
+
+.mailing {
+  justify-content: flex-start;
+}
+
+#email {
+  padding:0;
 }
