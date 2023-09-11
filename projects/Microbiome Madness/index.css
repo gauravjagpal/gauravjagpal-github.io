@@ -71,9 +71,10 @@ li {
 }
 
 #bio {
-  padding: 10px 0 10px 10px;
+  padding: 20px 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
+  text-align: center;
 }
 
 #smoothie {
