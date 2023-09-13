@@ -159,3 +159,20 @@ li {
 #email {
   padding:0;
 }
+
+
+@media (max-width: 400px)  {
+  #slogan {
+    font-size: 15px;
+  }
+  
+  #bio {
+    padding: 10px 15px;
+    font-size: 10px;
+    color:darkblue;
+    text-align: center; 
+    height: max-content;
+    line-height: 15px;
+    margin: auto;
+  }
+}
