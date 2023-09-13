@@ -75,11 +75,13 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
   text-align: center;
+  height: max-content;
 }
 
 #smoothie {
   width:100%;
   padding: 10px 0;
+  height: ;
 }
 
 .threesteps {
