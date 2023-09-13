@@ -161,7 +161,7 @@ li {
 }
 
 
-@media (max-width: 400px)  {
+@media (max-width: 450px)  {
   #slogan {
     font-size: 15px;
   }
@@ -172,6 +172,6 @@ li {
     text-align: center; 
     height: max-content;
     line-height: 15px;
-    margin: auto;
+    margin: auto ;
   }
 }
