@@ -16,7 +16,6 @@
   --phone-texth4: 15px;
 }
 
-
 .container {
   display: flex;
   flex-direction: column;
@@ -38,7 +37,7 @@ header {
 
 .navbar a{
   list-style: none;
-  padding: 0;
+  padding: 0 10px;
   margin: 0;  
 }
 
