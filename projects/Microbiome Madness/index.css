@@ -250,7 +250,7 @@ header {
 }
 
 
-@media (min-width: 450px)  {
+@media (max-width: 450px)  {
   #slogan {
     font-size: 15px;
   }
