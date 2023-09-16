@@ -199,6 +199,7 @@ header {
   margin: 0 30px;
   justify-content: center;
   text-align: center;
+  display: inline;
 }
 
 .coaching {
@@ -277,6 +278,7 @@ header {
 
   #steps {
     display: block;
+    margin: 0 20%;
   }
 
   
