@@ -201,7 +201,7 @@ header {
   text-align: center;
 }
 
-.button {
+#coaching {
   background-color: var(--button-color1);
   border: none;
   color: white;
