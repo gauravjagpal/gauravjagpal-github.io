@@ -259,7 +259,7 @@ header {
     font-size: 25px;
   }
   
-  #bio {
+  #bio p {
     padding: 10px 15px;
     font-size: var(--phone-texth4);
     text-align: center; 
@@ -267,27 +267,7 @@ header {
     line-height: 25px;
     margin: auto ;
   }
-
-
-}
-
-
-
-
-@media (max-width: 650px) and (min-width: 200px)  {
-  #slogan {
-    font-size: 15px;
-  }
   
-  #bio {
-    padding: 10px 15px;
-    font-size: var(--phone-text);
-    text-align: center; 
-    height: max-content;
-    line-height: 15px;
-    margin: auto ;
-  }
-
   p, h2 {
     font-size: var(--phone-text);
   }
@@ -320,4 +300,25 @@ header {
   .testimonial p {
     font-size: var(--phone-text);
   }
+
+}
+
+
+
+
+@media (max-width: 650px) and (min-width: 200px)  {
+  #slogan {
+    font-size: 15px;
+  }
+  
+  #bio {
+    padding: 10px 15px;
+    font-size: var(--phone-text);
+    text-align: center; 
+    height: max-content;
+    line-height: 15px;
+    margin: auto ;
+  }
+
+  
 }
