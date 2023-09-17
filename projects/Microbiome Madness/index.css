@@ -27,6 +27,10 @@ header {
   background: var(--background-color1);
 }
 
+.topnav {
+  display: none;
+}
+
 .navbar{
   display: flex;
   top: 0;
@@ -60,89 +64,6 @@ header {
 	font-weight: bold;
 	cursor:pointer
 }
-
-/*
-.hamburger-menu {
-  --x-width: calc(var(--hamburger-height) * 1.41421356237);
-
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  width: max-content;
-  position: absolute;
-  top: var(--hamburger-margin);
-  left: var(--hamburger-margin);
-  z-index: 2;
-  cursor: pointer;
-}
-
-.hamburger-menu:has(input:checked) {
-  --foreground: white;
-  --background: #333;
-}
-
-.hamburger-menu:has(input:focus-visible)::before,
-.hamburger-menu:has(input:focus-visible)::after,
-.hamburger-menu input:focus-visible {
-  border: 1px solid var(--background-color3);
-  box-shadow: 0 0 0 1px var(--background-color);
-}
-
-.hamburger-menu::before,
-.hamburger-menu::after,
-.hamburger-menu input {
-  content: "";
-  width: var(--bar-width);
-  height: var(--bar-height);
-  background-color: var(--background-color2);
-  border-radius: 999px;
-  transform-origin: left center;
-  transition: opacity var(--animation-timing), width var(--animation-timing),
-    rotate var(--animation-timing), translate var(--animation-timing),
-    background-color var(--animation-timing);
-}
-
-.hamburger-menu input {
-  appearance: none;
-  padding: 0;
-  margin: 0;
-  outline: none;
-  pointer-events: none;
-}
-
-.hamburger-menu:has(input:checked)::before {
-  rotate: 45deg;
-  width: var(--x-width);
-  translate: 0 calc(var(--bar-height) / -2);
-}
-
-.hamburger-menu:has(input:checked)::after {
-  rotate: -45deg;
-  width: var(--x-width);
-  translate: 0 calc(var(--bar-height) / 2);
-}
-
-.hamburger-menu input:checked {
-  opacity: 0;
-  width: 0;
-}
-
-.sidebar {
-  transition: translate var(--animation-timing);
-  translate: -100%;
-  padding: 0.5rem 1rem;
-  padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-  color: var(--background-color1);
-  max-width: 10rem;
-  min-height: 100vh;
-}
-
-
-.hamburger-menu:has(input:checked) + .sidebar {
-  translate: 0;
-}
-*/
-
 
 
 .punchline {
@@ -255,6 +176,7 @@ header {
 
 
 @media (max-width: 926px) and (min-width: 651px)  {
+ 
   #slogan {
     font-size: 25px;
   }
@@ -321,4 +243,58 @@ header {
   }
 
   
+}
+
+@media (max-width: 926px) {
+
+  /* ----------------------------MOBILE HAMBURER MENU ---------------------------- */
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  display: flex;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: var(--background-color1);
+  color: white;
+}
+
+
+
+/* ----------------------------MOBILE HAMBURER MENU END---------------------------- */
+  header .navbar {
+    display: none;
+  }
 }

@@ -12,10 +12,24 @@
     </head>
     <body>
         <header>
+            <div class="topnav">
+                <a href="#home" class="active sidebar">Microbione Madness</a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <a class="navlist" id="home" href="index.html"><i class="fa fa-home"></i>  HOME</a>
+                    <a class="navlist" id="about" target="_blank" href="about.html">ABOUT ME</a>
+                    <a class="navlist" id="therapies" target="_blank" href="therapies.html">THERAPIES</a>
+                    <a class="navlist" id="blog" target="_blank" href="blog.html">BLOG</a>
+                    <a class="navlist" id="coaching" target="_blank" href="coaching.html">COACHING</a>
+                    <a class="navlist" id="contact" target="_blank" href="contact.html">CONTACT</a>
+                    <a class="navlist" id="login" target="_blank" href="login.html">LOGIN</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
             <div class="container navbar">
-                <!-- <label class="hamburger-menu">
-                    <input type="checkbox" />
-                </label> -->
                 <aside class="sidebar">
                     <nav>
                         <a class="navlist" id="home" href="index.html"><i class="fa fa-home"></i>  HOME</a>
@@ -186,6 +200,7 @@
             </div>
         </main>
         <script src="main.js"></script>
+        <!-- Testimonial Banner Java script -->
         <script>
             var slideIndex = 1;
             showDivs(slideIndex);
@@ -204,6 +219,17 @@
               }
               x[slideIndex-1].style.display = "block";  
             }
-            </script>
+        </script>
+        <!-- Mobile Nav Javascript -->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
     </body>
 </html>
