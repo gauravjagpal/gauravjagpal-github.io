@@ -1,13 +1,8 @@
-:root {
-    --backdrop-color: rgb(101, 120, 95);
-}
-
 .row {
     background-color: var(--background-color3);
 }
 
 main, footer {
-    background-color: var(--backdrop-color);
     padding-top: 100px;
 }
 
