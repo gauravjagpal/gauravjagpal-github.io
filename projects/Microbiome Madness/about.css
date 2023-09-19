@@ -1,0 +1,31 @@
+:root {
+    --backdrop-color: rgb(101, 120, 95);
+}
+
+.row {
+    background-color: var(--background-color3);
+}
+
+main, footer {
+    background-color: var(--backdrop-color);
+    padding-top: 100px;
+}
+
+#about-me, #my-struggles {
+    padding: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left; 
+    height: max-content;
+    margin: auto;
+    width: 100%;    
+  }
+  
+
+  #about-me h2, #about-me p,
+  #my-struggles h2, #my-struggles p
+  {
+    padding: 10px 20px;
+  }
+
+  
