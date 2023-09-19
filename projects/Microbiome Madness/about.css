@@ -29,3 +29,29 @@ main, footer {
   }
 
   
+
+  
+@media (max-width: 926px) {
+
+main, footer {
+    background-color: var(--backdrop-color);
+    padding-top: 0px;
+}
+
+#about-me, #my-struggles {
+    font-size: 10px;
+    text-align: left; 
+    height: max-content;
+    margin: auto;
+    width: 100%;    
+}
+
+#about-me h2, #about-me p,
+#my-struggles h2, #my-struggles p
+{
+  padding: 0px 7px;
+  font-size: 7px;
+  line-height: 15px;
+}
+
+}

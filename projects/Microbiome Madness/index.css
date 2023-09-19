@@ -13,6 +13,8 @@
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
   --phone-text: 10px;
   --phone-texth1: 30px;
+  --phone-texth2: 25px;
+  --phone-texth3: 20px;
   --phone-texth4: 15px;
   --e-book-color:rgb(199,199,199);
 }
@@ -235,6 +237,14 @@ header {
 
   .testimonial p {
     font-size: var(--phone-text);
+  }
+
+  .e-book h3 {
+    font-size: var(--phone-texth3);
+  }
+  
+  #e-book {
+    font-size: var(--phone-texth4);
   }
 
 }
