@@ -29,6 +29,9 @@
 header {
   padding: 10px 0;
   background: var(--background-color1);
+  height:50px;
+  position: fixed;
+  width: 100%;
 }
 
 main, footer {

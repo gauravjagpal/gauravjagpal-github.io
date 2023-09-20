@@ -3,3 +3,80 @@
     text-align: center;
 }
 
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.image-box {
+    width:90%;
+}
+
+img {
+    height: 290px;
+    display: inline-block;
+    border: 1px solid rgb(0, 195, 255);
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.image-bg {
+    width: 100%;
+}
+
+#eating-habits {
+    background-image: url(https://static.wixstatic.com/media/2a1a02_1f38d9901e2345a483fd9e9c4d1d79bc~mv2.jpg/v1/fill/w_292,h_292,fp_0.50_0.50,q_90,enc_auto/2a1a02_1f38d9901e2345a483fd9e9c4d1d79bc~mv2.jpg);
+}
+
+#scale {
+    background-image: url(https://static.wixstatic.com/media/2a1a02_9f5f27f07de44c509a37a1d4deabde9f~mv2.jpg/v1/fill/w_292,h_195,fp_0.50_0.50,q_90,enc_auto/2a1a02_9f5f27f07de44c509a37a1d4deabde9f~mv2.jpg);
+}
+
+#podcasts {
+    background-image: url(https://static.wixstatic.com/media/2a1a02_5f2118197ee24dfe8c47fd0d38e3cad4~mv2.jpg/v1/fill/w_292,h_292,fp_0.50_0.50,q_90,enc_auto/2a1a02_5f2118197ee24dfe8c47fd0d38e3cad4~mv2.jpg);
+    background-size: cover;
+}
+
+#meal-plan {
+    background-image: url(https://static.wixstatic.com/media/2a1a02_e3a1430f992d4be1845c5e0d6bbb41bb~mv2.jpg/v1/fill/w_292,h_177,fp_0.50_0.50,q_90,enc_auto/2a1a02_e3a1430f992d4be1845c5e0d6bbb41bb~mv2.jpg);
+    background-size: cover;
+}
+
+
+#change-diet {
+    background-image: url(https://static.wixstatic.com/media/2a1a02_01a51848e738428fba165cf8239fcb31~mv2.jpg/v1/fill/w_292,h_292,fp_0.50_0.50,q_90,enc_auto/2a1a02_01a51848e738428fba165cf8239fcb31~mv2.jpg);
+    background-size: cover;
+}
+
+
+#understanding-hunger {
+    background-image: url(https://static.wixstatic.com/media/2a1a02_be0215b3f0dc4b08a3f603d4d63540ca~mv2.jpg/v1/fill/w_292,h_292,fp_0.50_0.50,q_90,enc_auto/2a1a02_be0215b3f0dc4b08a3f603d4d63540ca~mv2.jpg);
+    background-size: cover;
+}
+
+#blogposts {
+    width: 300px;
+    display: inline-flex;
+    margin: 0;
+}
+
+@media screen and (max-width:649px){    
+    img {
+        width: 250px;
+        height: 150px;
+        display: inline-block;
+        border: 1px solid rgb(0, 195, 255);
+        outline: none;
+        appearance: none;
+        cursor: pointer;
+        margin: 10px 5px;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+}
