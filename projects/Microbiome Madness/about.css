@@ -23,10 +23,13 @@ main, footer {
     padding: 10px 20px;
   }
 
-  
+  div #about-me,  div #my-struggles {
+    padding: 0;
+    margin: 0;
+  }
 
-  
-@media (max-width: 926px) {
+
+  @media (max-width: 926px) {
 
 main, footer {
     background-color: var(--backdrop-color);
@@ -45,8 +48,21 @@ main, footer {
 #my-struggles h2, #my-struggles p
 {
   padding: 0px 7px;
-  font-size: 7px;
-  line-height: 15px;
+  font-size: 9px;
+  line-height: normal;
 }
 
 }
+
+@media (max-width: 650px) and (min-width: 200px)  {
+  #about-me p, #my-struggles p {
+    padding: 0px 7px;
+    font-size: 8px;
+    line-height: normal;
+  }
+  
+  
+}
+
+
+  

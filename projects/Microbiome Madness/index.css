@@ -11,7 +11,7 @@
   --hamburger-margin: 8px;
   --animation-timing: 200ms ease-in-out;
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
-  --phone-text: 10px;
+  --phone-text: 8px;
   --phone-texth1: 30px;
   --phone-texth2: 25px;
   --phone-texth3: 20px;
@@ -258,6 +258,10 @@ main, footer {
 
 }
 
+div .col {
+  padding: 0;
+}
+
 
 @media (max-width: 926px) and (min-width: 651px)  {
  
@@ -319,11 +323,12 @@ main, footer {
   
   #bio {
     padding: 10px 15px;
+  }
+
+  #bio p {
+    padding: 0px 7px;
     font-size: var(--phone-text);
-    text-align: center; 
-    height: max-content;
-    line-height: 15px;
-    margin: auto ;
+    line-height: normal;
   }
 
   
@@ -375,6 +380,10 @@ main, footer {
   color: white;
 }
 
+#myLinks a {
+  font-size:x-small;
+  line-height: 0;
+}
 
 
 /* ----------------------------MOBILE HAMBURER MENU END---------------------------- */
