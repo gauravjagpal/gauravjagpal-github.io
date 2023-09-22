@@ -3,6 +3,9 @@
     text-align: center;
 }
 
+body {
+    background-color: var(--backdrop-color);
+}
 
 .container {
     margin: auto;

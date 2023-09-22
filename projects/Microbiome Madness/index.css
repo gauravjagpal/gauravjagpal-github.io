@@ -2,6 +2,7 @@
   --background-color1: rgb(49, 49, 49);
   --background-color2: rgb(234, 179, 96);
   --background-color3: rgb(202, 188, 168);
+  --background-color4:rgb(138,148,201);
   --button-color1: rgb(218, 141, 0);
   --bar-width: 50px;
   --bar-height: 8px;
@@ -32,6 +33,7 @@ header {
   height:50px;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 main, footer {

@@ -20,7 +20,7 @@ main, footer {
   #about-me h2, #about-me p,
   #my-struggles h2, #my-struggles p
   {
-    padding: 10px 20px;
+    padding: 50px 50px 0;
   }
 
   div #about-me,  div #my-struggles {
