@@ -163,33 +163,29 @@
                 </div>
             </div>
         </main>
-        <footer>
+        <footer class="py-5">
             <div class="container e-book">
                 <h3>
                     <strong>My E-Book dives deep into the science behind my protocol. Download it below for free.</strong>
                 </h3>
-                <a class="e-book-download" target="_blank" id="e-book" href="https://sendfox.com/vagusnerve" style="margin: 50px 0 100px 0;">
+                <a class="e-book-download" target="_blank" id="e-book" href="https://sendfox.com/vagusnerve" style="margin: 50px auto 100px;">
                     <button class="button download" type="button">Download my E-Book</button>
                 </a>
             </div>
-            <div class="container footer">
-                <h1>
-                    Subscribe to get exclusive updates
-                </h1>
-                <label id="email-label">
-                    Email*
-                </label>
-                <div class="row">
-                    <div class="col">
-                    </div>
-                    <div class="col-6" id="email">
-                        <input class="email" type="email" placeholder="Enter your email" required="">
-                    </div>
-                    <div class="col-1" id="email">
-                        <button class="mailing" type="button">Join</button>
-                    </div>
-                    <div class="col">
-                    </div>
+            <div class="row footer">
+                <div class="col-md-5 mb-3" style="margin: auto;">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>&copy; Microbiome Madness. All rights reserved.</p>
                 </div>
             </div>
         </footer>
