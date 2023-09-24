@@ -21,6 +21,10 @@
   --backdrop-color: rgb(218, 218, 218);
 }
 
+#top-padding {
+  padding-top: 40px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -219,6 +223,9 @@ main, footer {
 
 
 @media (max-width: 926px)  {
+  #top-padding {
+    padding-top: 50px;
+  }
   
   p, h2 {
     font-size: var(--phone-text);
