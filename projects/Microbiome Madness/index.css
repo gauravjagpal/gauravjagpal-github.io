@@ -250,7 +250,7 @@ main, footer {
 
   #steps {
     display: block;
-    margin: 0 20%;
+    margin: 0 10%;
   }
   
 .testimonial {
@@ -260,17 +260,15 @@ main, footer {
   .testimonial h1 {
     font-size: var(--phone-texth4);
   }
-
-  .testimonial p {
-    font-size: var(--phone-text);
-  }
-
 }
 
 div .col {
   padding: 0;
 }
 
+.py-5 {
+  padding-top: 0px !important;
+}
 
 @media (max-width: 926px) and (min-width: 651px)  {
   
@@ -288,11 +286,6 @@ div .col {
     line-height: 25px;
     margin: auto ;
   }
-
-  #steps {
-    display: block;
-    margin: 0 20%;
-  }
   
 .testimonial {
   padding: 75px 0;
@@ -303,14 +296,6 @@ div .col {
   }
 
 }
-
-
-.py-5 {
-  padding-top: 0px !important;
-}
-
-
-
 
 @media (max-width: 650px) and (min-width: 200px)  {
   #slogan {
@@ -325,6 +310,12 @@ div .col {
     padding: 0px 7px;
     font-size: var(--phone-text);
     line-height: normal;
+  }
+
+  #steps {
+    display: block;
+    margin: 0 5%;
+    padding: 0 10%;
   }
 
   
@@ -388,19 +379,6 @@ div .col {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------Imported Footer styling---------------------------*/
 .btn-primary {
   background-color: var(--button-color1);
@@ -461,7 +439,7 @@ div .col {
         -webkit-overflow-scrolling: touch;
       }
 
-      .btn-bd-primary {
+      /* .btn-bd-primary {
         --bd-violet-bg: #712cf9;
         --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
@@ -476,7 +454,7 @@ div .col {
         --bs-btn-active-color: var(--bs-btn-hover-color);
         --bs-btn-active-bg: #5a23c8;
         --bs-btn-active-border-color: #5a23c8;
-      }
+      } */
       .bd-mode-toggle {
         z-index: 1500;
       }
