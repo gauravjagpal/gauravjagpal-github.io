@@ -16,9 +16,23 @@
     padding: 10px 0;
   }
 
+  #contact-header p{
+    padding: 30px 25%;
+  }
+
 #about-me {
     margin: auto 0;
 }
+
+
+
+
+@media (max-width: 1200px) {
+    #contact-header p{
+        padding: 0 10px;
+      }
+  }
+    
 
  /* ------------Imported contact form CSS-----------------*/
 
