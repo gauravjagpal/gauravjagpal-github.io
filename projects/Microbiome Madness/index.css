@@ -258,7 +258,7 @@ div .col {
 
   #steps {
     display: block;
-    margin: 0 10%;
+    margin: 0;
   }
   
 .testimonial {
@@ -274,6 +274,11 @@ div .col {
 @media (max-width: 1200px) {
   #bio {
     line-height: normal;
+  }
+
+  #step-guide {
+    display: block;
+    margin: 0;
   }
 }
   
