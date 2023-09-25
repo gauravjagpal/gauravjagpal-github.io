@@ -156,3 +156,20 @@
     line-height: normal;
   }
 }
+
+
+@media (max-width: 550px)  {
+  #coaching-guide {
+    display: block;
+  }
+
+  #coaching-guide img {
+    max-height: 25vh;
+    max-width: 50vw;
+  }
+
+  #salad img {
+    display: block;
+    margin: auto;
+  }
+}

@@ -3,6 +3,15 @@
     text-align: center;
 }
 
+#blog-container {
+    background-color: var(--background-color3);
+    padding-bottom: 50px;
+}
+
+#blog-container.row {
+    background-color: var(--background-color3);
+}
+
 body {
     background-color: var(--backdrop-color);
 }
@@ -15,6 +24,8 @@ body {
 .image-box {
     width:90%;
 }
+
+
 
 img {
     height: 290px;
@@ -83,4 +94,7 @@ img {
         padding: 0;
     }
 
+    .blog-posts {
+        height: 25vh;
+    }
 }
