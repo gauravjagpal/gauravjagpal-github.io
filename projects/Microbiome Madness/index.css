@@ -117,22 +117,26 @@ main, footer {
   padding: 50px;
 }
 
+.step1div {
+  width: 113px;
+  height: 113px;
+  margin: auto;
+}
+
+.step1img {
+  position: relative;
+  left: -36px;
+  top: -36px;
+}
 
 .process {
   position: relative;
-  top: -40px;
-  z-index: 1;
-}
-
-.process2 {
-  position: relative;
-  top: 30px;
   z-index: 1;
 }
 
 #steps {
   padding: 10px 0;
-  margin: 0 30px;
+  margin: 20px 30px;
   justify-content: center;
   text-align: center;
   display: inline;
