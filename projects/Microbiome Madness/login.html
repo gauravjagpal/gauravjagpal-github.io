@@ -11,43 +11,14 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-        <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="index.css">
+        <script type=module src="main.js"></script>
+        <script src="bootstrap.bundle.min.js"></script>
         <title class="project-tile">Microbiome Madness</title>
     </head>
     <body>
-        <header>
-            <div class="container topnav">
-                <a href="#home" class="active sidebar">Microbione Madness</a>
-                <!-- Navigation links (hidden by default) -->
-                <div id="myLinks">
-                    <a class="navlist" id="home" href="index.html"><i class="fa fa-home"></i>  HOME</a>
-                    <a class="navlist" id="about" href="about.html">ABOUT ME</a>
-                    <a class="navlist" id="therapies" href="therapies.html">THERAPIES</a>
-                    <a class="navlist" id="blog" href="blog.html">BLOG</a>
-                    <a class="navlist" id="coaching" href="coaching.html">COACHING</a>
-                    <a class="navlist" id="contact" href="contact.html">CONTACT</a>
-                    <a class="navlist" id="login" href="login.html">LOGIN</a>
-                </div>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-            </div>
-            <div class="container navbar">
-                <aside class="sidebar">
-                    <nav>
-                        <a class="navlist" id="home" href="index.html"><i class="fa fa-home"></i>  HOME</a>
-                        <a class="navlist" id="about" href="about.html">ABOUT ME</a>
-                        <a class="navlist" id="therapies" href="therapies.html">THERAPIES</a>
-                        <a class="navlist" id="blog" href="blog.html">BLOG</a>
-                        <a class="navlist" id="coaching" href="coaching.html">COACHING</a>
-                        <a class="navlist" id="contact" href="contact.html">CONTACT</a>
-                        <a class="navlist" id="login" href="login.html">LOGIN</a>
-                    </nav>
-                </aside>
-            </div>
-        </header>
+        <my-header></my-header>
         <div style="padding-top: 100px"></div>
             <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
                 <symbol id="check2" viewBox="0 0 16 16">
@@ -111,13 +82,11 @@
                         </label>
                     </div>
                     <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
-                    <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2023</p>
+                    <p class="mt-5 mb-3 text-body-secondary">&copy; 2022 – Present</p>
                 </form>
             </main>
-            <script src="bootstrap.bundle.min.js"></script>
         <footer>
         </footer>
-        <script src="main.js"></script>
         <!-- Mobile Nav Javascript -->
         <script>
             function myFunction() {

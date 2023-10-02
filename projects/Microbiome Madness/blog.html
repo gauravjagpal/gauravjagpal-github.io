@@ -9,41 +9,12 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="blog.css">
         <link rel="stylesheet" href="index.css">
+        <script type=module src="main.js"></script>
+        <script src="bootstrap.bundle.min.js"></script>
         <title class="project-tile">Microbiome Madness</title>
     </head>
     <body>
-        <header>
-            <div class="container topnav">
-                <a href="#home" class="active sidebar">Microbione Madness</a>
-                <!-- Navigation links (hidden by default) -->
-                <div id="myLinks">
-                    <a class="navlist" id="home" href="index.html"><i class="fa fa-home"></i>  HOME</a>
-                    <a class="navlist" id="about" href="about.html">ABOUT ME</a>
-                    <a class="navlist" id="therapies" href="therapies.html">THERAPIES</a>
-                    <a class="navlist" id="blog" href="blog.html">BLOG</a>
-                    <a class="navlist" id="coaching" href="coaching.html">COACHING</a>
-                    <a class="navlist" id="contact" href="contact.html">CONTACT</a>
-                    <a class="navlist" id="login" href="login.html">LOGIN</a>
-                </div>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-            </div>
-            <div class="container navbar">
-                <aside class="sidebar">
-                    <nav>
-                        <a class="navlist" id="home" href="index.html"><i class="fa fa-home"></i>  HOME</a>
-                        <a class="navlist" id="about" href="about.html">ABOUT ME</a>
-                        <a class="navlist" id="therapies" href="therapies.html">THERAPIES</a>
-                        <a class="navlist" id="blog" href="blog.html">BLOG</a>
-                        <a class="navlist" id="coaching" href="coaching.html">COACHING</a>
-                        <a class="navlist" id="contact" href="contact.html">CONTACT</a>
-                        <a class="navlist" id="login" href="login.html">LOGIN</a>
-                    </nav>
-                </aside>
-            </div>
-        </header>
+        <my-header></my-header>
        <main class="container" style="padding: 0;">
         <div id="top-padding"></div>
             <div class="container punchline">
@@ -105,33 +76,7 @@
                 </div>
             </div>
         </main>
-        <footer class="py-5">
-            <div class="container e-book">
-                <h3>
-                    <strong>My E-Book dives deep into the science behind my protocol. Download it below for free.</strong>
-                </h3>
-                <a class="e-book-download" target="_blank" id="e-book" href="https://drive.google.com/file/d/18H9CYGLe9WJiaxFKgBJPiGGc4jc3luwz/view?fbclid=IwAR1ZQo_jkHvUb0-EZ-nvXFyVv1XgPkWxDvqeJ_ipEjemW9SYCOBDMBmxNGg" style="margin: 50px auto 100px;">
-                    <button class="button download" type="button">Download my E-Book</button>
-                </a>
-            </div>
-            <div class="container footer">
-                <div class="col-md-5 mb-3" style="margin: auto;">
-                    <form>
-                        <h5>Subscribe to our newsletter</h5>
-                        <p>Monthly digest of what's new and exciting from us.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                    <p>&copy; Microbiome Madness. All rights reserved.</p>
-                </div>
-            </div>
-        </footer>
-        <script src="main.js"></script>
+        <my-footer></my-footer>
         <!-- Testimonial Banner Java script -->
         <script>
             var slideIndex = 1;
