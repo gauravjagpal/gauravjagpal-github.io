@@ -106,7 +106,7 @@ main, footer {
   margin: auto;
 }
 
-#smoothie {
+#smoothie, #vagus-nerve {
   width:100%;
   object-fit: cover;
 }
@@ -229,7 +229,6 @@ div .col {
 .py-5 {
   padding: 0px !important;
 }
-
 
 @media (max-width: 926px)  {
   header {
