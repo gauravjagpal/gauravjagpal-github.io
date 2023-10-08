@@ -230,6 +230,10 @@ div .col {
   padding: 0px !important;
 }
 
+iframe {
+  max-width: 80%;
+}
+
 @media (max-width: 926px)  {
   header {
     padding: 0;
