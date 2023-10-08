@@ -1,0 +1,5 @@
+.div-seperator {
+  margin: 20px 0;
+  border: 2px solid var(--background-color3)!important;
+  border-radius: 2px;
+}

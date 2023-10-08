@@ -84,3 +84,15 @@ class MyFooter extends HTMLElement {
 	}
 
 	customElements.define('my-footer', MyFooter)
+
+	class DivSeperator extends HTMLElement {
+		connectedCallback () {
+			this.innerHTML = `
+			<div class="container">
+              <span class="border div-seperator"></span>
+            </div>
+			`
+		}
+		}
+	
+		customElements.define('div-seperator', DivSeperator)

@@ -96,7 +96,7 @@ main, footer {
   background-image: url(stone-background.jpeg);
 }
 
-#bio {
+#bio, #tVNS {
   padding: 20px 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
@@ -275,7 +275,7 @@ div .col {
 
 
 @media (max-width: 1200px) {
-  #bio {
+  #bio, #tVNS {
     line-height: normal;
   }
 
@@ -294,7 +294,7 @@ div .col {
     font-size: 25px;
   }
   
-  #bio p {
+  #bio p, #tVNS p {
     padding: 10px 15px;
     text-align: center; 
     height: max-content;
@@ -316,11 +316,11 @@ div .col {
     font-size: 15px;
   }
   
-  #bio {
+  #bio, #tVNS {
     padding: 10px 15px;
   }
 
-  #bio p {
+  #bio p, #tVNS p {
     padding: 0px 7px;
     font-size: var(--phone-text);
     line-height: normal;
