@@ -1,0 +1,7 @@
+#left-column {
+    background-color: var(--background-color4);
+}
+
+#right-column {
+    background-color: var(--backdrop-color);
+}

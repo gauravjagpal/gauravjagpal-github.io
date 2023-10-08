@@ -3,3 +3,12 @@
   border: 2px solid var(--background-color3)!important;
   border-radius: 2px;
 }
+
+
+#vagus-nerve {
+  padding: 10px;
+}
+
+#tVNS-image {
+  margin: auto;
+}

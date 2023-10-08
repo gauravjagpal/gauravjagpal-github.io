@@ -21,7 +21,7 @@ connectedCallback () {
                     	        <a class="navlist dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">THERAPIES</a>
                         	    <ul class="dropdown-menu">
                             	    <li><a class="dropdown-item" href="Vagus-Nerve-Stimulation-(tVNS).html">Vagus Nerve Stimulation (tVNS)</a></li>
-                                	<li><a class="dropdown-item" href="#">Another action</a></li>
+                                	<li><a class="dropdown-item" href="helminth-therapy.html">Helminth Therapy</a></li>
                             	</ul>
 	                        </li>
     	                    <li class="nav-item">
