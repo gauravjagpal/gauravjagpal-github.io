@@ -275,11 +275,6 @@ iframe {
  h4 {
     font-size: var(--phone-texth4);
   }
-
-  #steps {
-    display: block;
-    margin: 0;
-  }
   
 .testimonial {
   padding: 75px 0;
@@ -344,11 +339,10 @@ iframe {
   }
 
   #steps {
-    display: block;
     margin: 0 5%;
-    padding: 0 5%;
   }
 
+  
   
 }
 
