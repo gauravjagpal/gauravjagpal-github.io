@@ -234,6 +234,19 @@ iframe {
   max-width: 80%;
 }
 
+.dropdown-menu {
+  background-color: var(--background-color1);
+}
+
+
+.dropdown-menu a {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* ------------------------------------Start of Media Queries----------------------------------------------- */
+
 @media (max-width: 926px)  {
   header {
     padding: 0;
