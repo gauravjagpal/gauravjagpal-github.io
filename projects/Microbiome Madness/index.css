@@ -135,8 +135,7 @@ main, footer {
 }
 
 #steps {
-  padding: 10px 0;
-  margin: 20px 30px;
+  padding: 10px 10px;
   justify-content: center;
   text-align: center;
   display: inline;
@@ -338,11 +337,6 @@ iframe {
     line-height: normal;
   }
 
-  #steps {
-    margin: 0 5%;
-  }
-
-  
   
 }
 
@@ -398,8 +392,16 @@ iframe {
   text-align: center;
 }
 
-
+}
 /* ----------------------------MOBILE HAMBURER MENU END---------------------------- */
+
+
+@media (max-width: 768px) {
+  
+#mobile-gap {
+  display: none;
+}
+
 }
 
 /*---------------------Imported Footer styling---------------------------*/
