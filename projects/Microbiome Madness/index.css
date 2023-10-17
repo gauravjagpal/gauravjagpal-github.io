@@ -115,13 +115,7 @@ main, footer {
   margin: auto;
 }
 
-#vagus-nerve {
-  width:100%;
-  object-fit: cover;
-  height: -webkit-fill-available;
-}
-
-#smoothie {
+#smoothie, #vagus-nerve {
   width:100%;
   object-fit: cover;
 }
