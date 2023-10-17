@@ -78,6 +78,12 @@ img {
     padding: 30px 0;
 }
 
+@media (min-width: 576px) {
+.col-sm {
+    flex: 1 1 30%;
+}
+}
+
 @media screen and (max-width:649px){    
     img {
         width: 250px;
