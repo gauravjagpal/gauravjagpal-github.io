@@ -96,7 +96,16 @@ main, footer {
   background-image: url(stone-background.jpeg);
 }
 
-#bio, #tVNS {
+#tVNS {
+  padding: 20px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  text-align: center; 
+  height: max-content;
+  line-height: 50px;
+}
+
+#bio {
   padding: 20px 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
@@ -109,6 +118,7 @@ main, footer {
 #smoothie, #vagus-nerve {
   width:100%;
   object-fit: cover;
+  height: -webkit-fill-available;
 }
 
 .threesteps {
