@@ -24,19 +24,11 @@
     margin: auto 0;
 }
 
+#login-background {
+    width:100%;
+}
 
 
-
-@media (max-width: 1200px) {
-    #contact-header p{
-        padding: 0 10px;
-      }
-
-    .form-control, input {
-        font-size: 0.75rem;
-    }
-  }
-    
 
  /* ------------Imported contact form CSS-----------------*/
 
@@ -47,6 +39,12 @@ body{
 .contact-form{
     background: #fff;
     width: 50%;
+    border: none;
+    padding: 1.5%;
+    background: var(--button-color1);
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
 }
 
 .contact-form form{
@@ -66,16 +64,6 @@ body{
     margin-top: -10%;
     text-align: center;
     color: #0062cc;
-}
-
-.contact-form {
-    width: 50%;
-    border: none;
-    padding: 1.5%;
-    background: var(--button-color1);
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
 }
 
 .btnContact {
@@ -98,3 +86,32 @@ body{
     border: none;
     cursor: pointer;
 }
+ /* ------------End of Imported contact form CSS-----------------*/
+
+
+@media screen and (max-width: 768px) {
+    #login-background {
+        display: none;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-form form {
+        padding: 20% 15%;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    #contact-header p{
+        padding: 0 10px;
+      }
+
+    .form-control, input {
+        font-size: 0.75rem;
+    }
+  }
+    
